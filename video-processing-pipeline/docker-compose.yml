@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+	ffmpeg:
+		image: jrottenberg/ffmpeg:latest
+		container_name: ffmpeg
+		volumes:
+			- ./storage:/storage

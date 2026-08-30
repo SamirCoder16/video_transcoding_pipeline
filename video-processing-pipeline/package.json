@@ -1,0 +1,20 @@
+{
+  "name": "video_pipeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "file-type": "^22.0.2",
+    "morgan": "^1.12.0",
+    "multer": "^2.3.0"
+  }
+}
